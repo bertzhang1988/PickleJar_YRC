@@ -1,0 +1,13 @@
+dcc.url.=https://dcc.yrcw.com/webapps/yrc-dcc/
+dcc.login=123
+dcc.login.textbox.selector=loginVM.terminal_1
+dcc.login.textbox.xpath=//*[@id="loginVM.terminal_1"]
+dcc.login.button.selector=/html/body/ui-view/div/div/div/form/div/div[2]/button
+dcc.login.terminal.name=#mainContainer > div > div > div:nth-child(2) > div.pull-right.terminal
+dcc.login.terminal.xpath=//*[@id="mainContainer"]/div/div/div[2]/div[1]
+dcc.forced.shipment.summary=//*[@id="mainContainer"]/div/ui-view/div/div/div[2]/div/div[1]/h3
+dcc.page.sort.button=//*[@id="forcedShipSummary-sort"]/button
+dcc.forced.shipment.headers=//*[@id="forcedShipSummary"]/div[1]
+dcc.guaranted.shipments.text=//*[@id="mainContainer"]/div/ui-view/div/div/div[1]/div/div[1]/h3
+dcc.guaranteed.shipments.headers=//*[@id="mainContainer"]/div/ui-view/div/div/div[1]/div/div[2]
+dcc.signout.link=/html/body/ui-view/header/div/nav/ul[2]/li[2]/a/i
